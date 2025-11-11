@@ -4,12 +4,15 @@
   ImporterName: JavaScriptAssetImporter
   PrimaryAsset: !<reference> 199b7b64-1551-413e-aa68-0e9edf3bb992
   PackageType: NotAPackage
-  PackagePolicy: CannotBeUnpacked
-  ExtraData: {}
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
   AssetDataMap:
     JavaScriptAsset: !<own> 6dfecf19-fdcd-4501-a9ac-167dda922653
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptAssetData/6dfecf19-fdcd-4501-a9ac-167dda922653>
   SvgIcon: ""
@@ -21,6 +24,7 @@
   VersionPatch: 0
   ComponentUid: ed1c4cea-168e-4a45-9401-cb32929bff9a
   ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     completedColor: false
     completedInstruction: false
@@ -34,16 +38,22 @@
     showProgressBar: false
     showTimer: false
     waitingInstruction: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
   DefaultScriptInputs:
     - poseSequenceController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       instructionText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       progressText: !<reference.Text> 00000000-0000-0000-0000-000000000000
       progressBar: !<reference.Image> 00000000-0000-0000-0000-000000000000
       progressBarContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      poseInstructions: !<string[]> []
+      poseInstructions: !<string[]>
+        []
       waitingInstruction: Get ready to follow the pose sequence!
       completedInstruction: Sequence Complete! Great job!
       showProgressBar: true
@@ -51,4 +61,5 @@
       progressColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 0.000000, w: 1.000000}
       completedColor: !<Vec4> {x: 0.000000, y: 1.000000, z: 0.000000, w: 1.000000}
   ScriptTypes:
-    - {}
+    -
+      {}

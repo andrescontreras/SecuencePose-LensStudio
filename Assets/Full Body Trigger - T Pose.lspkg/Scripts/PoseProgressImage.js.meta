@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/64bfecde-f46f-4527-96e2-f00a5c966078>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c49ab892-8f1e-4825-9030-cd5376eba425
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c49ab892-8f1e-4825-9030-cd5376eba425
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 154ff54a-60bd-4d61-b84c-02efe3e322e3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/154ff54a-60bd-4d61-b84c-02efe3e322e3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 82881920-fd45-441b-b40a-23d52eb379bb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    noPoseCompleteTexture: false
+    pose1CompleteTexture: false
+    pose2CompleteTexture: false
+    pose3CompleteTexture: false
+    poseSequenceController: false
+    progressImage: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - poseSequenceController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      progressImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      noPoseCompleteTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      pose1CompleteTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      pose2CompleteTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      pose3CompleteTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -4,12 +4,15 @@
   ImporterName: JavaScriptAssetImporter
   PrimaryAsset: !<reference> afbf94f3-c7c8-4848-abf6-2b8e221553de
   PackageType: NotAPackage
-  PackagePolicy: CannotBeUnpacked
-  ExtraData: {}
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
   AssetDataMap:
     JavaScriptAsset: !<own> 56923b16-cb55-4b31-97ff-600c053041dc
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptAssetData/56923b16-cb55-4b31-97ff-600c053041dc>
   SvgIcon: ""
@@ -21,6 +24,7 @@
   VersionPatch: 0
   ComponentUid: 8e2b5758-70ed-4edf-a965-ccf77351ce66
   ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     completeTriggers: false
     endTriggers: false
@@ -33,20 +37,30 @@
     sequenceStartTrigger: false
     startTriggers: false
     threshold: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
   DefaultScriptInputs:
     - gestureLibrary: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       minimumHoldTime: !<float> 5.000000
       printDebugLog: true
-      poseSequence: !<string[]> []
+      poseSequence: !<string[]>
+        - ""
       threshold: 0.100000
-      startTriggers: !<string[]> []
-      endTriggers: !<string[]> []
-      completeTriggers: !<string[]> []
+      startTriggers: !<string[]>
+        []
+      endTriggers: !<string[]>
+        []
+      completeTriggers: !<string[]>
+        []
       sequenceStartTrigger: SEQUENCE_START
       sequenceCompleteTrigger: SEQUENCE_COMPLETE
       sequenceResetTrigger: SEQUENCE_RESET
   ScriptTypes:
-    - {}
+    -
+      {}

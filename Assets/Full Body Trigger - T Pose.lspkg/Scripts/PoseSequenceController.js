@@ -9,14 +9,14 @@
 
 // @ui {"widget": "separator"}
 // @ui {"widget": "label", "label": "Sequence Setup:"}
-// @input string[] poseSequence = ["TPOSE", "ARMS_UP"] {"label": "Pose Sequence"}
+// @input string[] poseSequence = ["TPOSE", "ARMS_UP", "THIRD_POSE_NO_ARMS"] {"label": "Pose Sequence"}
 // @input float threshold = 0.15 {"widget": "slider", "min": 0.0, "max": 1.0, "step": 0.01}
 
 // @ui {"widget": "separator"}
 // @ui {"widget": "label", "label": "Triggers for each pose:"}
-// @input string[] startTriggers = ["TPOSE_START", "ARMS_UP_START"] {"label": "Start Triggers"}
-// @input string[] endTriggers = ["TPOSE_END", "ARMS_UP_END"] {"label": "End Triggers"}
-// @input string[] completeTriggers = ["TPOSE_COMPLETE", "ARMS_UP_COMPLETE"] {"label": "Complete Triggers"}
+// @input string[] startTriggers = ["TPOSE_START", "ARMS_UP_START", "THIRD_POSE_NO_ARMS_START"] {"label": "Start Triggers"}
+// @input string[] endTriggers = ["TPOSE_END", "ARMS_UP_END", "THIRD_POSE_NO_ARMS_END"] {"label": "End Triggers"}
+// @input string[] completeTriggers = ["TPOSE_COMPLETE", "ARMS_UP_COMPLETE", "THIRD_POSE_NO_ARMS_COMPLETE"] {"label": "Complete Triggers"}
 
 // @ui {"widget": "separator"}
 // @input string sequenceStartTrigger = "SEQUENCE_START" {"label": "Sequence Start Trigger"}

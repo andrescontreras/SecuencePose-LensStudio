@@ -105,8 +105,8 @@ function getCurrentPoseIndex() {
     if (!currentPose) return -1;
     
     // Get the pose sequence from the controller
-    var poseSequence = ["TPOSE", "ARMS_UP"]; // Default sequence
-    
+    var poseSequence = ["TPOSE", "ARMS_UP", "THIRD_POSE_NO_ARMS"]; // Default sequence
+
     for (var i = 0; i < poseSequence.length; i++) {
         if (poseSequence[i] === currentPose) {
             return i;
