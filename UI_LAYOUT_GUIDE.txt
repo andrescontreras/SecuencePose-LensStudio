@@ -1,0 +1,37 @@
+/*
+UI Layout Diagram for Pose Sequence System
+==========================================
+
+Screen Layout (Portrait):
+┌─────────────────────────────┐
+│                             │
+│    "Hold T-Pose"            │  ← Instruction Text (Top)
+│                             │
+│                             │
+│         [CAMERA]            │
+│         [VIEW]              │
+│                             │
+│        "1.0s"               │  ← Timer Text (Center-Bottom)
+│                             │
+│  ┌─────────────────────┐    │
+│  │████████░░░░░░░░░░░░░│    │  ← Progress Bar (Bottom)
+│  └─────────────────────┘    │     (Fills left to right)
+└─────────────────────────────┘
+
+Element Positioning:
+- Instruction Text: Top 20% of screen
+- Timer Text: Just below center
+- Progress Bar: Bottom 10% of screen
+- All elements use ScreenTransform for responsive layout
+
+Color Scheme:
+- Instruction Text: White (#FFFFFF)
+- Timer Text: Yellow (#FFFF00) 
+- Progress Bar: Yellow (#FFFF00) → Green (#00FF00) when complete
+- Progress Background: Dark/Transparent
+
+Responsive Design:
+- Uses anchor-based positioning
+- Scales appropriately for different screen sizes
+- Works in both portrait and landscape modes
+*/

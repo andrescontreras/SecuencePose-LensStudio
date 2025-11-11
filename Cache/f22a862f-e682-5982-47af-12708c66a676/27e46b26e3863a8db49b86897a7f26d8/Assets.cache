@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    4f5191a8-e40f-4805-821f-6924d6818e7a: f22a862f-e682-5982-47af-12708c66a676/27e46b26e3863a8db49b86897a7f26d8/Data/Swiggle1.t3d
+    78657177-df31-4cff-b8b1-091a318a5a34: f22a862f-e682-5982-47af-12708c66a676/27e46b26e3863a8db49b86897a7f26d8/Data/atlas_0.pvr
+  Assets:
+    - !<AnimatedTexture/4f5191a8-e40f-4805-821f-6924d6818e7a>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 1.000000
+            value: 9
+      ReverseSupported: true
+      FrameSize: {x: 51, y: 157}
+      AnimationSequences:
+        default: 9
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/78657177-df31-4cff-b8b1-091a318a5a34>
+      PackagePath: atlas_0.pvr
+      FileInfo: !<FileTextureInfo>
+        Width: 255
+        Height: 314
+  SourceHash: 27e46b26e3863a8db49b86897a7f26d8
+  FileHash: bff6020331f9591e858e7d217e6ef31d
+  NativePackageItems:
+    []

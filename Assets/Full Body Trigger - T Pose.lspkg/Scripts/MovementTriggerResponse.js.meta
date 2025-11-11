@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/3d2740ac-a1ed-57a2-3347-d36e84c10a58>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 2b5321e7-046b-4a26-b991-991bd99b609f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 2b5321e7-046b-4a26-b991-991bd99b609f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 15OWyVB3Ucy9aHj3cXZHa0
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1f4ec93e-c909-4314-bf2a-ac638d593412
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1f4ec93e-c909-4314-bf2a-ac638d593412>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 7762f826-a3cc-4365-b3d4-5593b7a31b9f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  ScriptInputsHidden:
+    advanced: false
+    endTrigger: false
+    fadeInTween: false
+    fadeOutTween: false
+    particleBursts: false
+    startTrigger: false
+    triggerAnimatedTextures: false
+    triggerObjects: false
+    triggerTweens: false
+  ScriptTypesHidden: {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - startTrigger: ""
+      endTrigger: ""
+      triggerObjects: !<reference.SceneObject[]> []
+      triggerTweens: !<reference.SceneObject[]> []
+      triggerAnimatedTextures: !<reference.Texture[]> []
+      particleBursts: !<reference.ScriptComponent[]> []
+      advanced: false
+      fadeInTween: ""
+      fadeOutTween: ""
+  ScriptTypes:
+    - {}

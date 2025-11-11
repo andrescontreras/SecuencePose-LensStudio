@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    6ada8c41-bdc3-460c-9387-67a1857a262e: 0f86e814-e6db-607e-378e-d63703d11bf4/616ffe9fc3d922b5b14540d2acc35b42/Data/magnifying_glass.t3d
+    765cf622-b0cf-4104-b8d0-d065651552cb: 0f86e814-e6db-607e-378e-d63703d11bf4/616ffe9fc3d922b5b14540d2acc35b42/Data/atlas_0.pvr
+  Assets:
+    - !<AnimatedTexture/6ada8c41-bdc3-460c-9387-67a1857a262e>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 2.300000
+            value: 50
+      ReverseSupported: true
+      FrameSize: {x: 128, y: 129}
+      AnimationSequences:
+        default: 50
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/765cf622-b0cf-4104-b8d0-d065651552cb>
+      PackagePath: atlas_0.pvr
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 903
+  SourceHash: 616ffe9fc3d922b5b14540d2acc35b42
+  FileHash: 2266092c97a4c1193ff551b9d0b081bd
+  NativePackageItems:
+    []

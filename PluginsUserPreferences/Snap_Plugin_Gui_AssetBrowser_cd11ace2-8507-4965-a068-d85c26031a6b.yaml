@@ -1,0 +1,86 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 80
+    values:
+      - Full Body Trigger - T Pose.lspkg/Full Body Trigger - T Pose__PUT_IN_ORTHO_CAM.prefab
+      - Full Body Trigger - T Pose.lspkg/Materials
+      - Full Body Trigger - T Pose.lspkg/Materials/DebugUIMaterials
+      - Full Body Trigger - T Pose.lspkg/Materials/DebugUIMaterials/Blue Point.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/DebugUIMaterials/Red Point.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/DebugUIMaterials/Yellow Point.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/Fullscreen Effects
+      - Full Body Trigger - T Pose.lspkg/Materials/Fullscreen Effects/TPose_Fullscreen_Effect.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/Lightning.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/Look For Body Hint.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/Magnifying Glass Hint.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/SquiggleLine-hueshift 2.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/SquiggleLine-hueshift 3.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/SquiggleLine-hueshift.mat
+      - Full Body Trigger - T Pose.lspkg/Materials/T Pose Hint.mat
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Font
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Font/jellee_roman.ttf
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Script
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Script/ObjectTrackingHintController.js
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/hint_look_for_body
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/hint_look_for_body/hint_look_for_body.t3d
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/hint_look_for_body/hint_look_for_body.t3d/atlas_0.pvr
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/hint_look_for_body/hint_look_for_body.t3d/hint_look_for_body
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/hint_stay_further
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/hint_stay_further/hint_stay_further.t3d
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/hint_stay_further/hint_stay_further.t3d/atlas_0.pvr
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/hint_stay_further/hint_stay_further.t3d/hint_stay_further
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/magnifying_glass
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/magnifying_glass/magnifying_glass.t3d
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/magnifying_glass/magnifying_glass.t3d/atlas_0.pvr
+      - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/magnifying_glass/magnifying_glass.t3d/magnifying_glass
+      - Full Body Trigger - T Pose.lspkg/Scripts/FullBodyTrackingController.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/GestureController.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/Helpers
+      - Full Body Trigger - T Pose.lspkg/Scripts/Helpers/Behavior.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/Helpers/DebugHelper.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/Helpers/RotateTowardsTarget.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/MovementTrigger.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/MovementTriggerResponse.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/PoseSequenceUI.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/SequenceEffectsController.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/Tween
+      - Full Body Trigger - T Pose.lspkg/Scripts/Tween/Tween.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/Tween/TweenManager.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/Tween/TweenTypes
+      - Full Body Trigger - T Pose.lspkg/Scripts/Tween/TweenTypes/TweenAlpha.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/Tween/TweenTypes/TweenScreenTransform.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/Tween/TweenTypes/TweenValue.js
+      - Full Body Trigger - T Pose.lspkg/Shaders
+      - Full Body Trigger - T Pose.lspkg/Shaders/Debug Joint Point.ss_graph
+      - Full Body Trigger - T Pose.lspkg/Shaders/Image.ss_graph
+      - Full Body Trigger - T Pose.lspkg/Shaders/SquiggleLine-hueshift.ss_graph
+      - Full Body Trigger - T Pose.lspkg/Shaders/TPose Fullscreen Effect.ss_graph
+      - Full Body Trigger - T Pose.lspkg/Textures
+      - Full Body Trigger - T Pose.lspkg/Textures/Device Camera Texture.deviceCameraTexture
+      - Full Body Trigger - T Pose.lspkg/Textures/Screen Texture.screenTexture
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Hints
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Hints/hint-Tpose
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Hints/hint-Tpose/hint-Tpose.t3d
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Hints/hint-Tpose/hint-Tpose.t3d/atlas_0.pvr
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Hints/hint-Tpose/hint-Tpose.t3d/hint-Tpose
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Lightning
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Lightning/Lightning.t3d
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Lightning/Lightning.t3d/Lightning
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Lightning/Lightning.t3d/atlas_0.pvr
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Swiggle1
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Swiggle1/Swiggle1.t3d
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Swiggle1/Swiggle1.t3d/Swiggle1
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Swiggle1/Swiggle1.t3d/atlas_0.pvr
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Swiggle2
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Swiggle2/Swiggle2.t3d
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Swiggle2/Swiggle2.t3d/Swiggle2
+      - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Swiggle2/Swiggle2.t3d/atlas_0.pvr
+      - Full Body Trigger - T Pose.lspkg/Textures/mask dot.jpg
+      - Full Body Trigger - T Pose.lspkg/package.native
+      - Image 6.mat
+      - Image 7.mat
+  options: 4

@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/117c0e84-e4f7-4eba-8994-413685a5fb87>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d1243fe1-7841-4e4b-9b38-cc1cb42b0a49
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d1243fe1-7841-4e4b-9b38-cc1cb42b0a49
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 52428fb2-7901-4d59-bef3-2d7ea1ed3d6f
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings/c259a2cb-1d17-4096-95bc-e91d4d12bfeb> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/52428fb2-7901-4d59-bef3-2d7ea1ed3d6f>
+  SvgIcon: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: dc4cbf98-3f5e-4fed-81cf-e78870577df7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    addSecondaryHint: false
+    advanced: false
+    customText: false
+    hint: false
+    hintLogo: false
+    hintLogoImage: false
+    hintRenderZone: false
+    hintText: false
+    magnifying: false
+    magnifyingGlassPivot: false
+    secondaryHintLogo: false
+    secondaryText: false
+    useMagnifying: false
+    useMagnifying1: false
+  ScriptTypesHidden: {}
+  DefaultScriptInputs:
+    - hintLogo: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      hint: 0
+      customText: ""
+      useMagnifying: false
+      addSecondaryHint: false
+      secondaryHintLogo: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      secondaryText: ""
+      useMagnifying1: false
+      advanced: false
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hintRenderZone: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hintLogoImage: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      magnifyingGlassPivot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      magnifying: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    - {}

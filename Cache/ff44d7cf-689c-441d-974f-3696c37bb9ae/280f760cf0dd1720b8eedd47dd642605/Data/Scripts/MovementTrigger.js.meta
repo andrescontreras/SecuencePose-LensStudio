@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/f6508178-96a9-4267-acd1-98d636dbd1e2>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c2def2f8-1ec3-40b7-b430-a88e5bb2e720
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c2def2f8-1ec3-40b7-b430-a88e5bb2e720
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> c11af561-a0e9-4681-a97f-ebda951048ee
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings/d0d44ba1-20fe-4b1b-96a6-e3e25dc81d43> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c11af561-a0e9-4681-a97f-ebda951048ee>
+  SvgIcon: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ecf717cc-e3db-4d7c-8389-7208660deeae
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    completeTrigger: false
+    effectLength: false
+    gestureLibrary: false
+    gestureNames: false
+    hasEndTime: false
+    jointName: false
+    jointName1: false
+    jointName2: false
+    moveType: false
+    printDebugLog: false
+    screenTrigger: false
+    startTrigger: false
+    threshold: false
+  ScriptTypesHidden: {}
+  DefaultScriptInputs:
+    - moveType: gesture
+      gestureLibrary: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      gestureNames: !<string[]> []
+      jointName1: Nose
+      jointName2: Nose
+      screenTrigger: !<reference.ScreenTransform> 00000000-0000-0000-0000-000000000000
+      jointName: Nose
+      threshold: 0.150000
+      startTrigger: !<string[]> []
+      completeTrigger: !<string[]> []
+      hasEndTime: false
+      effectLength: !<float> 1.000000
+      printDebugLog: false
+  ScriptTypes:
+    - {}

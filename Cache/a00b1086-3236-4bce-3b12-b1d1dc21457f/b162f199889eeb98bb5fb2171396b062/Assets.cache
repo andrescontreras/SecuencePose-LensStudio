@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    354e237d-2418-43ae-9bba-ce774ccdfdb2: a00b1086-3236-4bce-3b12-b1d1dc21457f/b162f199889eeb98bb5fb2171396b062/Data/mask dot.jpg
+  Assets:
+    - !<FileTexture/354e237d-2418-43ae-9bba-ce774ccdfdb2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 116
+        Height: 116
+  SourceHash: b162f199889eeb98bb5fb2171396b062
+  FileHash: d6f5a0b4ab2cccf345d86325c038b37f
+  NativePackageItems:
+    []

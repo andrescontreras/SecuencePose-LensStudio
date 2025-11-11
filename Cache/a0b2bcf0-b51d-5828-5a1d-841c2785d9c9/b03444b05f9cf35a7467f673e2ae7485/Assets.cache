@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    b94a7702-6971-4f89-b288-c31978fcf994: a0b2bcf0-b51d-5828-5a1d-841c2785d9c9/b03444b05f9cf35a7467f673e2ae7485/Data/Lightning.t3d
+    463dea7d-de59-479a-8a86-1911e7d71bc8: a0b2bcf0-b51d-5828-5a1d-841c2785d9c9/b03444b05f9cf35a7467f673e2ae7485/Data/atlas_0.pvr
+  Assets:
+    - !<AnimatedTexture/b94a7702-6971-4f89-b288-c31978fcf994>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 0.450000
+            value: 12
+      ReverseSupported: true
+      FrameSize: {x: 112, y: 119}
+      AnimationSequences:
+        default: 12
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/463dea7d-de59-479a-8a86-1911e7d71bc8>
+      PackagePath: atlas_0.pvr
+      FileInfo: !<FileTextureInfo>
+        Width: 448
+        Height: 357
+  SourceHash: b03444b05f9cf35a7467f673e2ae7485
+  FileHash: 1424cea86eac437ec1117921eb5d35eb
+  NativePackageItems:
+    []

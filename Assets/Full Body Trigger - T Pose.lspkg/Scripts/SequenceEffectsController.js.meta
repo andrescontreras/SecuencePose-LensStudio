@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/3c15561b-915c-494e-bf4a-d11110a528c8>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> e439a6c9-4dc6-440f-b5cf-a0174bc1bfaf
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> e439a6c9-4dc6-440f-b5cf-a0174bc1bfaf
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData: {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2baed411-6d9d-409e-a840-2ac1dad1b2db
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/2baed411-6d9d-409e-a840-2ac1dad1b2db>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5f363f8e-bd26-402e-976f-494269fd4b74
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  ScriptInputsHidden:
+    advanced: false
+    armsUpAnimatedTextures: false
+    armsUpObjects: false
+    armsUpParticleBursts: false
+    armsUpTweens: false
+    fadeInTween: false
+    fadeOutTween: false
+    poseNames: false
+    sequenceCompleteEffectDuration: false
+    sequenceCompleteObjects: false
+    sequenceCompleteParticles: false
+    sequenceCompleteTextures: false
+    sequenceCompleteTweens: false
+    tposeAnimatedTextures: false
+    tposeObjects: false
+    tposeParticleBursts: false
+    tposeTweens: false
+  ScriptTypesHidden: {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - poseNames: !<string[]> []
+      tposeObjects: !<reference.SceneObject[]> []
+      tposeTweens: !<reference.SceneObject[]> []
+      tposeAnimatedTextures: !<reference.Texture[]> []
+      tposeParticleBursts: !<reference.ScriptComponent[]> []
+      armsUpObjects: !<reference.SceneObject[]> []
+      armsUpTweens: !<reference.SceneObject[]> []
+      armsUpAnimatedTextures: !<reference.Texture[]> []
+      armsUpParticleBursts: !<reference.ScriptComponent[]> []
+      sequenceCompleteObjects: !<reference.SceneObject[]> []
+      sequenceCompleteTweens: !<reference.SceneObject[]> []
+      sequenceCompleteTextures: !<reference.Texture[]> []
+      sequenceCompleteParticles: !<reference.ScriptComponent[]> []
+      sequenceCompleteEffectDuration: !<float> 3.000000
+      advanced: false
+      fadeInTween: FADEIN
+      fadeOutTween: FADEOUT
+  ScriptTypes:
+    - {}

@@ -1,0 +1,56 @@
+- !<Material/02b144a8-5b60-47ac-a95b-934f818e74e8>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 68afca84-f20d-4f0b-a1af-0d1dc18d64f3
+- !<PassInfo/68afca84-f20d-4f0b-a1af-0d1dc18d64f3>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Add
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    colorTint:
+      typeIdx: 5
+      value: {x: 0.678599, y: 0.427451, z: 1.000000, w: 0.510002}
+    intensity:
+      typeIdx: 1
+      value: 0.000000
+    screenTex:
+      typeIdx: 9
+      value:
+        id: 7b796720-16de-4569-9fa1-60ed5e77bb21
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    screenTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    screenTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    screenTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    screenTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  Pass: !<reference> 3771d4cc-b1a4-4e9f-a311-3ff6eaded9fc
