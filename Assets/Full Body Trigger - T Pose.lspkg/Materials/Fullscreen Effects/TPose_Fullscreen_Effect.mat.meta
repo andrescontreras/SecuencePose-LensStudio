@@ -4,7 +4,7 @@
   ImporterName: MaterialImporter
   PrimaryAsset: !<reference> 02b144a8-5b60-47ac-a95b-934f818e74e8
   PackageType: NotAPackage
-  PackagePolicy: CannotBeUnpacked
+  LegacyPackagePolicy: ~
   ExtraData:
     AssetLibraryId: 15OWyVB3Ucy9aHj3cXZHa0
   AssetDataMap:

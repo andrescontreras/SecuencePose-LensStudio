@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/a3e78deb-d17c-4dbf-a5ee-559648350603>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0432666a-8123-402e-9d6e-edefccfbad71
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0432666a-8123-402e-9d6e-edefccfbad71
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 6ba4784b-3b12-47d5-b344-3ca4a0386247
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/6ba4784b-3b12-47d5-b344-3ca4a0386247>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3769f120-508b-4a53-81b8-3355fb1c3f44
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    completionDisplayTime: false
+    poseSequenceController: false
+    riddle1Texture: false
+    riddle1fTexture: false
+    riddle2Texture: false
+    riddle2fTexture: false
+    riddle3Texture: false
+    riddle3fTexture: false
+    riddleImage: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - poseSequenceController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      riddleImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+      riddle1Texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      riddle1fTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      riddle2Texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      riddle2fTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      riddle3Texture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      riddle3fTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      completionDisplayTime: !<float> 2.000000
+  ScriptTypes:
+    -
+      {}

@@ -9,7 +9,10 @@
     buildFlavor: ""
     timestamp: 0
     commit: ""
-  Description: "The Full Body Trigger - T Pose Pacakge allows you to trigger different screen effects with custom body gestures. This asset use T Pose as an example to trigger the lighting effects attached to the user's body tracking and a post effect. Find the Object Tracking - Dance preview to preview the effect.\n\nLearn more from https://docs.snap.com/lens-studio/essential-skills/ar-tracking/body/body-templates/full-body-triggers"
+  Description: |-
+    The Full Body Trigger - T Pose Pacakge allows you to trigger different screen effects with custom body gestures. This asset use T Pose as an example to trigger the lighting effects attached to the user's body tracking and a post effect. Find the Object Tracking - Dance preview to preview the effect.
+    
+    Learn more from https://docs.snap.com/lens-studio/essential-skills/ar-tracking/body/body-templates/full-body-triggers
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -19,7 +22,12 @@
   UpdateCheckpoint: 76
   ExportUid: 6550a4d1-653f-40cc-9dc7-da597aca0e37
   ComponentUid: 082c7090-3385-4833-8fa5-ec905281a69a
+  PackagePolicy: ShouldBeUnpacked
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
   Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
   AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
     Name: ""
@@ -30,6 +38,3 @@
       minor: 0
       patch: 0
       build: 0
-  PackagePolicy: ShouldBeUnpacked
-  coreVersion: 330
-  clientVersion: 13.6000004

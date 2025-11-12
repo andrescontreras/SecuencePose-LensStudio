@@ -4,13 +4,15 @@
   ImporterName: JavaScriptAssetImporter
   PrimaryAsset: !<reference> 49c1a4b1-d658-4b62-9ed1-af7391938f21
   PackageType: NotAPackage
-  PackagePolicy: CannotBeUnpacked
+  LegacyPackagePolicy: ~
   ExtraData:
     AssetLibraryId: 15OWyVB3Ucy9aHj3cXZHa0
   AssetDataMap:
     JavaScriptAsset: !<own> ba8b646f-6fd5-49b8-9f5d-69d66f9f94fe
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptAssetData/ba8b646f-6fd5-49b8-9f5d-69d66f9f94fe>
   SvgIcon: ""
@@ -22,6 +24,7 @@
   VersionPatch: 0
   ComponentUid: e246f903-e7a2-43bd-9b6d-918cd74c6518
   ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     additive: false
     anchorsParam: false
@@ -54,9 +57,14 @@
     time: false
     tweenName: false
     type: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
   DefaultScriptInputs:
     - sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       tweenName: ""
@@ -90,4 +98,5 @@
       easingFunction: Quadratic
       easingType: Out
   ScriptTypes:
-    - {}
+    -
+      {}

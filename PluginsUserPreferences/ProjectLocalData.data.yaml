@@ -1,2 +1,9 @@
 data:
-  externalSources: []
+  externalSources:
+    - 2ab53cbc-6455-4db3-8f15-c297af72c2e9: /Users/andresconterras/Downloads/Riddle 2f.png
+    - 437a7d75-638b-4365-8f75-e7b4c8d1526b: /Users/andresconterras/Downloads/Riddle 1f.png
+    - c2736e1c-bfb7-42c6-809d-e22b31db30d1: /Users/andresconterras/Downloads/Riddle 3f.png
+    - c9b4eae1-1b83-4280-b6d3-eda57db5b6bd: /Applications/Lens Studio.app/Contents/Plugins/Es_ShaderGraph_Model.bundle/InstantiationResources/image_unlit.ss_graph
+    - e4d54809-1e4b-4e6e-ba59-a06ce805b0ff: /Users/andresconterras/Downloads/Riddle 1.png
+    - eaa064c9-ac03-491a-94e3-73bace983466: /Users/andresconterras/Downloads/Riddle 3.png
+    - f6c70c29-ca06-4fcf-93aa-0eb021f5fae4: /Users/andresconterras/Downloads/Riddle 2.png

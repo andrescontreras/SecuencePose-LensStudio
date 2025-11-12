@@ -5,17 +5,18 @@
   ImporterName: LensAnimationImporter
   PrimaryAsset: !<reference> 4f5191a8-e40f-4805-821f-6924d6818e7a
   PackageType: LegacyPackage
+  LegacyPackagePolicy: CannotBeUnpackedTransparent
   ExtraData:
     AssetLibraryId: 15OWyVB3Ucy9aHj3cXZHa0
   AssetDataMap:
     AnimatedTexture: !<own> dbcc5323-540a-4673-a1cb-fa53a9cf3084
   DependentFiles:
     - atlas_0.pvr
-  ImporterSettings: !<AssetImporterSettings> {}
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<SingleCompressionSettings>
     CompressorName: None
     CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-  LegacyPackagePolicy: CannotBeUnpackedTransparent
 - !<AnimatedTextureData/dbcc5323-540a-4673-a1cb-fa53a9cf3084>
   AutoPlay: true
   Reversed: false

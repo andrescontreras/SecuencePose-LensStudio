@@ -4,13 +4,15 @@
   ImporterName: JavaScriptAssetImporter
   PrimaryAsset: !<reference> a1fc00a3-0465-471c-9dc2-4130cab44a3f
   PackageType: NotAPackage
-  PackagePolicy: CannotBeUnpacked
+  LegacyPackagePolicy: ~
   ExtraData:
     AssetLibraryId: 15OWyVB3Ucy9aHj3cXZHa0
   AssetDataMap:
     JavaScriptAsset: !<own> 6fc8c363-43ab-4078-b57b-b80b28da7230
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptAssetData/6fc8c363-43ab-4078-b57b-b80b28da7230>
   SvgIcon: ""
@@ -22,6 +24,7 @@
   VersionPatch: 0
   ComponentUid: 4cd15e93-0ea8-40cf-957d-4f833536dc61
   ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     LeftAnkle: false
     LeftEar: false
@@ -47,9 +50,14 @@
     deviceCameraTexture: false
     hintScript: false
     overrideCamera: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
   DefaultScriptInputs:
     - advanced: false
       Nose: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
@@ -76,4 +84,5 @@
       hintScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       deviceCameraTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
-    - {}
+    -
+      {}

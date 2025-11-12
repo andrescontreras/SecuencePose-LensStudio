@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 80
+    size: 101
     values:
       - Full Body Trigger - T Pose.lspkg/Full Body Trigger - T Pose__PUT_IN_ORTHO_CAM.prefab
       - Full Body Trigger - T Pose.lspkg/Materials
@@ -44,7 +44,10 @@ CollapsedEntities:
       - Full Body Trigger - T Pose.lspkg/Scripts/Helpers/RotateTowardsTarget.js
       - Full Body Trigger - T Pose.lspkg/Scripts/MovementTrigger.js
       - Full Body Trigger - T Pose.lspkg/Scripts/MovementTriggerResponse.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/PoseProgressImage.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/PoseSequenceController.js
       - Full Body Trigger - T Pose.lspkg/Scripts/PoseSequenceUI.js
+      - Full Body Trigger - T Pose.lspkg/Scripts/RiddleProgressImage.js
       - Full Body Trigger - T Pose.lspkg/Scripts/SequenceEffectsController.js
       - Full Body Trigger - T Pose.lspkg/Scripts/Tween
       - Full Body Trigger - T Pose.lspkg/Scripts/Tween/Tween.js
@@ -81,6 +84,24 @@ CollapsedEntities:
       - Full Body Trigger - T Pose.lspkg/Textures/Trigger Textures/Swiggle2/Swiggle2.t3d/atlas_0.pvr
       - Full Body Trigger - T Pose.lspkg/Textures/mask dot.jpg
       - Full Body Trigger - T Pose.lspkg/package.native
+      - Image 10.mat
+      - Image 11.mat
+      - Image 12.mat
+      - Image 13.mat
+      - Image 14.mat
+      - Image 15.mat
+      - Image 16.mat
+      - Image 17.mat
+      - Image 18.mat
+      - Image 19.mat
       - Image 6.mat
       - Image 7.mat
+      - ImageMaterial.mat
+      - Riddle 1.png
+      - Riddle 1f.png
+      - Riddle 2.png
+      - Riddle 2f.png
+      - Riddle 3.png
+      - Riddle 3f.png
+      - image_unlit.ss_graph
   options: 4

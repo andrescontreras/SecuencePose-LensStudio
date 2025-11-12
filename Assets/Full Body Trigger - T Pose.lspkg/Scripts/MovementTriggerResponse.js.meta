@@ -4,13 +4,15 @@
   ImporterName: JavaScriptAssetImporter
   PrimaryAsset: !<reference> 2b5321e7-046b-4a26-b991-991bd99b609f
   PackageType: NotAPackage
-  PackagePolicy: CannotBeUnpacked
+  LegacyPackagePolicy: ~
   ExtraData:
     AssetLibraryId: 15OWyVB3Ucy9aHj3cXZHa0
   AssetDataMap:
     JavaScriptAsset: !<own> 1f4ec93e-c909-4314-bf2a-ac638d593412
-  DependentFiles: []
-  ImporterSettings: !<AssetImporterSettings> {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ScriptAssetData/1f4ec93e-c909-4314-bf2a-ac638d593412>
   SvgIcon: ""
@@ -22,6 +24,7 @@
   VersionPatch: 0
   ComponentUid: 7762f826-a3cc-4365-b3d4-5593b7a31b9f
   ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     advanced: false
     endTrigger: false
@@ -32,18 +35,28 @@
     triggerAnimatedTextures: false
     triggerObjects: false
     triggerTweens: false
-  ScriptTypesHidden: {}
+  ScriptTypesHidden:
+    {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
   DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
   DefaultScriptInputs:
     - startTrigger: ""
       endTrigger: ""
-      triggerObjects: !<reference.SceneObject[]> []
-      triggerTweens: !<reference.SceneObject[]> []
-      triggerAnimatedTextures: !<reference.Texture[]> []
-      particleBursts: !<reference.ScriptComponent[]> []
+      triggerObjects: !<reference.SceneObject[]>
+        []
+      triggerTweens: !<reference.SceneObject[]>
+        []
+      triggerAnimatedTextures: !<reference.Texture[]>
+        []
+      particleBursts: !<reference.ScriptComponent[]>
+        []
       advanced: false
       fadeInTween: ""
       fadeOutTween: ""
   ScriptTypes:
-    - {}
+    -
+      {}

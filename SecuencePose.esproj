@@ -4,27 +4,10 @@ studioVersion:
   patch: 1
   build: 25102815
   type: Public
-  buildFlavor: release
-  timestamp: 1761618684000
-  commit: 54bd5fa29ec52a896d33538b8268bb2bb920f9af
-coreVersion: 321
-clientVersion: 13.500000
+coreVersion: 330
+clientVersion: 13.60
 updateCheckpoint: 76
 sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
-viewConfig:
-  simulation:
-    device: No Simulation
-    cameraFov: 66.519997
-    fullFrameAspect: nan
-    resolutionScale: 1.000000
-    viewport: Maximized
-    output: Live
-    stereoOutputEye: Center
-    deviceTypeOverride: Unknown
-    tint: true
-    screenshot: false
-    videoScreenRecord: false
-  cameraType: Back
 metaInfo:
   hints:
     []
