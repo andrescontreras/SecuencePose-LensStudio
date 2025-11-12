@@ -40,7 +40,7 @@ mirrorHorizontally:
   options: 4
 previewSource:
   type: string
-  value: PreviewResources.bundle/Video/Object Tracking/Dance.mp4
+  value: FaceTime HD Camera
   options: 4
 previewTarget:
   type: int
@@ -48,7 +48,7 @@ previewTarget:
   options: 4
 previewType:
   type: string
-  value: Multimedia
+  value: Webcam
   options: 4
 recordInput:
   type: bool

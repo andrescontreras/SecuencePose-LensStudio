@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 101
+    size: 102
     values:
       - Full Body Trigger - T Pose.lspkg/Full Body Trigger - T Pose__PUT_IN_ORTHO_CAM.prefab
       - Full Body Trigger - T Pose.lspkg/Materials
@@ -36,6 +36,7 @@ CollapsedEntities:
       - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/magnifying_glass/magnifying_glass.t3d
       - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/magnifying_glass/magnifying_glass.t3d/atlas_0.pvr
       - Full Body Trigger - T Pose.lspkg/Object Tracking Hint/Textures/magnifying_glass/magnifying_glass.t3d/magnifying_glass
+      - Full Body Trigger - T Pose.lspkg/Scripts/FinalPose.js
       - Full Body Trigger - T Pose.lspkg/Scripts/FullBodyTrackingController.js
       - Full Body Trigger - T Pose.lspkg/Scripts/GestureController.js
       - Full Body Trigger - T Pose.lspkg/Scripts/Helpers

@@ -109,8 +109,9 @@ function transitionToNextRiddle(poseNumber) {
             currentRiddleState = "riddle3";
             break;
         case 3:
-            // Stay on riddle3f or could transition to a final state
-            break;
+            // Stay on riddle3f - don't transition away from final completion image
+            debugPrint("Final pose completed - keeping Riddle3f on screen");
+            return; // Exit early, don't call updateRiddleImage
     }
     
     updateRiddleImage();
@@ -123,7 +124,16 @@ function onUpdate() {
     completionTimer += getDeltaTime();
     
     if (completionTimer >= script.completionDisplayTime) {
-        debugPrint("Completion display time finished, transitioning to next riddle");
+        debugPrint("Completion display time finished");
+        
+        // Special case: if we're showing riddle3f (final completion), don't transition
+        if (currentRiddleState === "riddle3f") {
+            debugPrint("Final completion image - keeping on screen permanently");
+            isShowingCompletion = false; // Stop the timer but keep the image
+            return;
+        }
+        
+        debugPrint("Transitioning to next riddle");
         isShowingCompletion = false;
         completionTimer = 0.0;
         

@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/663ede35-83e9-44df-b350-3ff0b09edc29>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ac374956-c289-413c-84bf-6bdda596cf9c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ac374956-c289-413c-84bf-6bdda596cf9c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 280d42fd-5224-45de-a270-c7a7c5982e4c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/280d42fd-5224-45de-a270-c7a7c5982e4c>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2885d13d-e290-4aa4-b52c-17f45903cec7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    numberText: false
+    numberToShow: false
+    poseSequenceController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - numberText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      poseSequenceController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      numberToShow: !<string> 5
+  ScriptTypes:
+    -
+      {}
